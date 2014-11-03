@@ -1,0 +1,72 @@
+<!-- BLOG POSTS -->
+	<div class="container">
+		<div class="row mt">
+			<div class="col-lg-12">
+				<h1>Recent Posts</h1>
+			</div><!-- col-lg-12 -->
+			<div class="col-lg-8">
+				<p>Our latests thoughts about things that only matters to us.</p>
+			</div><!-- col-lg-8-->
+			<div class="col-lg-4 goright">
+				<p><a href="#"><i class="fa fa-angle-right"></i> See All Posts</a></p>
+			</div>
+		</div><!-- row -->
+		
+		<div class="row mt">
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post01.jpg" alt="">
+				<h3 class="hdblk"><a href="#">Designing for the reader experience</a></h3>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post02.jpg" alt="">
+				<h3 class="hdblk"><a href="#">25 Examples of flat web & application design</a></h3>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post03.jpg" alt="">
+				<h3 class="hdblk"><a href="#">We are an award winning design agency</a></h3>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
+			</div>		
+		</div><!-- row -->
+	</div><!-- container -->
+	<!-- Isolate Blog Post -->
+
+
+<!-- SERVICES SECTION -->
+	<div id="services">
+		<div class="container">
+			<div class="row mt">
+				<div class="col-lg-1 centered">
+					<i class="fa fa-pencil"></i>
+				</div>
+			<!-- Srvice 1 -->
+				<div class="col-lg-3">
+					<h3>Beautiful Design</h3>
+					<p>Our brand design services generally includes 3 concepts and unlimited revisions so you are 100% satisfied.</p>
+				</div>
+
+				<!-- Srvice 2 -->
+				<div class="col-lg-1 centered">
+					<i class="fa fa-desktop"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Responsive Dev</h3>
+					<p>It's 2014 & crucial to understand the impact of mobile & tablet. We are responsive, mobile first thinking, ALWAYS.</p>
+				</div>
+				
+				<!-- Srvice 3 -->
+			<div class="col-lg-1 centered">
+					<i class="fa fa-cloud"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Cloud Hosting</h3>
+					<p>In order to protect & service our client's projects more safely and efficiently, we also offer cloud hosting on our VPS.</p>
+				</div>
+			
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- services section -->
