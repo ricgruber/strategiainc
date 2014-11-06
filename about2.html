@@ -174,7 +174,7 @@
 	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-4">
-				<img src="assets/img/team/giaScatchell_bw.jpg" alt="Gianna Scatchell">
+				<img src="assets/img/team/gia.png" alt="Gianna Scatchell">
 				<div class="cardinfo">
 					<h4><b>Gianna Scatchell</b></h4>
 					<h6>Co-Founder</h6>
@@ -183,7 +183,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
-				<img src="assets/img/team/ricGruber_bw.jpg" alt="Ric Gruber Jr">
+				<img src="assets/img/team/ric.png" alt="Ric Gruber Jr">
 				<div class="cardinfo">
 					<h4><b>Ric Gruber Jr</b></h4>
 					<h6>Co-Founder</h6>
@@ -192,7 +192,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
-				<img src="assets/img/team/kevinRoemer_bw.png" alt="Kevin Roemer">
+				<img src="assets/img/team/kevin.png" alt="Kevin Roemer">
 				<div class="cardinfo">
 					<h4><b>Kevin Roemer</b></h4>
 					<h6>System Admin & Lead Developer</h6>
@@ -233,6 +233,10 @@
 			</div><!-- col-lg-12 -->
 		</div><!-- row -->
 	</div><!-- container -->
+
+	 <!--Instagram Feed -->
+	<div id="instafeed"></div> 
+	  <!-- Instagram Feed-->
 	
 	<!-- SOCIAL FOOTER -->
 	<section id="contact"></section>
@@ -293,6 +297,14 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/classie.js"></script>
-    <script src="js/spectragram.js"></script>
+    <script type="text/javascript" src="assets/js/instafeed.min.js"></script> 
+    <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'strategia',
+        clientId: '335e135f037541b0814c9a68fed7630c'
+    });
+    feed.run();
+</script>
   </body>
 </html>
