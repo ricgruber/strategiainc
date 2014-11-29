@@ -68,50 +68,55 @@ hr {
     padding: 0;
 }
 .btn {
-    border-radius: 0;
+    border-radius: 4px;
 }
 .btn-green {
     color: #2f2f2f;
     background-color: #ffffff;
     border-color: #2f2f2f;
-    font-weight: 300;
+    font-weight: 400;
+     border-radius: 4px;
 }
 .btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #ead242;
     border-color: #2f2f2f;
-    font-weight: 300;
+    font-weight: 400;
+    border-radius: 4px;
 }
 .btn {
-    border-radius: 0;
+    border-radius: 4px;
 }
 .btn-black {
     color: #ffff00;
     background-color: #000000;
     border-color: #2f2f2f;
-    font-weight: 300;
+    font-weight: 400;
+    border-radius: 4px;
 }
 .btn-black:hover, .btn-black:focus, .btn-black:active, .btn-black.active, .open .dropdown-toggle.btn-green {
     color: #000000;
     background-color: #ffffff;
-
+    border-radius: 4px;
     border-color: #2f2f2f;
-    font-weight: 300;
+    font-weight: 400;
 }
 .btn {
-    border-radius: 0;
+    border-radius: 4px;
 }
 .btn-yellow{
     color: #fff;
     background-color: #ffff00;
     border-color: #000000;
-    font-weight: 300;
+    font-weight: 400;
+    border-radius: 4px;
 }
 .btn-yellow:hover, .btn-yellow:focus, .btn-yellow:active, .btn-yellow.active, .open .dropdown-toggle.btn-green {
     color: #fff;
     background-color: #000000;
     border-color: #000000;
-    font-weight: 300;
+    font-weight: 400;
+    border-radius: 4px;
 }
 .tm {
     font-size: 14px;
@@ -423,7 +428,7 @@ hr {
     text-align: left;
 }
 #call {
-    background: #2f2f2f;
+    background: #000000;
     padding-top: 35px;
     padding-bottom: 35px;
     text-align: center;
@@ -469,7 +474,7 @@ hr {
     margin-bottom: 50px;
 }
 #cf {
-    background: #2f2f2f;
+    background: #000000;
 }
 #cf h4 {
     color: #fff;
@@ -740,5 +745,135 @@ body
     font-size: 0.95em;
     font-weight: bold;
     text-align: center;
+}
+
+/*Background Services Sections*/
+
+#learnwrap {
+    background: url(../img/learn-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#learnwrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+#designwrap {
+    background: url(../img/design-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#designwrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+#buildwrap {
+    background: url(../img/build-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#buildwrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+#marketwrap {
+    background: url(../img/market-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#marketwrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+#evolvewrap {
+    background: url(../img/evolve-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#evolvewrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
 }
 
