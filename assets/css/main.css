@@ -25,6 +25,12 @@ p {
 }
 .mt {
     padding-top: 25px;
+
+}
+.mtwt {
+    padding-top: 25px;
+background-color: #ffffff;
+    
 }
 a {
     color: #000000;
@@ -905,5 +911,9 @@ body
 }
 .thumbnail:hover .caption {
     top:0%;
+}
+#servicesbg {
+    background: #ffffff;
+    
 }
     
